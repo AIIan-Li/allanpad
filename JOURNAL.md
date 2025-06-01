@@ -40,3 +40,17 @@ I could either redesign the case, or fix the PCB which I figured would be better
 
 #May 32: Refinishing the PCB
 
+Initially It was going well, I rerouted the traces connected to the MCU, like 10 of them. 
+
+![failed PCB](./images/failedpcb.png)
+
+Yeah so turns out I made the same mistake **again** 
+I only rotated the MCU, instead of centering it to avoid interference with the case. Time to redo again.
+also note: I actually made the biggest mistake ever I closed the window for some reason so I couldn't just revert my changes. 
+
+Finally finished, I made sure to double check that nothing was going to interfere.
+On the brightside, I learned a lot about routing traces, and I made sure to be more careful as I know If there was mistake I have to correct it. 
+
+![Final Final PCB](./images/finalpcb.png)
+
+**Total time spent 45min**
