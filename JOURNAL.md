@@ -54,3 +54,11 @@ On the brightside, I learned a lot about routing traces, and I made sure to be m
 ![Final Final PCB](./images/finalpcb.png)
 
 **Total time spent 45min**
+
+#May 32: Finishing the CAD
+
+Mostly just working on it, not much to say
+
+![alt text](./image/finalcad.png)
+
+**Total time spent 2h**
