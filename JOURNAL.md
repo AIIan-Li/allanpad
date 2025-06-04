@@ -59,6 +59,19 @@ On the brightside, I learned a lot about routing traces, and I made sure to be m
 
 Mostly just working on it, not much to say
 
-![alt text](./image/finalcad.png)
+![alt text](./images/finalcad.png)
 
 **Total time spent 2h**
+
+#June 4: fixing my pcb 
+
+Kind of odd, I got my project approved (please don't unapprove) then I go on hackpad website, **I used the wrong diode footprint**
+Actually easier fix than I thought, I thankfully only had to reroute a few easy traces, and it doesn't impact any functions. 
+
+pictureeee
+![hopefully you don't need to see alt text](./images/finalfinalPCB.png)
+
+My gerber file for the pcb manufactuer finally got accepted after like 3 times so that's also cool
+also just realised half of my journal entries are may 32 so lots of fun
+
+**Total time spent 20min**

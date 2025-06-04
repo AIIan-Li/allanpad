@@ -499,10 +499,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerber1/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "HackpadAllan.step",
+      "step": "C:/Users/Allan/Downloads/HackpadAllan.step",
       "svg": "",
       "vrml": ""
     },
