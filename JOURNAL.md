@@ -75,3 +75,16 @@ My gerber file for the pcb manufactuer finally got accepted after like 3 times s
 also just realised half of my journal entries are may 32 so lots of fun
 
 **Total time spent 20min**
+
+#July 4: doing the build
+
+ok ik it is already into August, but when i started this project 2 months ago im like 99% sure you didn't need a journal for hackpad?? I made one anyways but here we are now and I kinda need to ship project for my travel stipend. The build was pretty easy and I can recall everything that happened but pls don't reject because I have no progress images.
+
+So I started off by practicing soldering with one of the pcbs and a few extra switches/diodes
+It was actually going pretty well so i started doing the hackpad.
+
+It was around this point I realised I had made a circular cutout for the rotary encoder when I actually needed a square??? I thought about redoing the print but I kinda just took the solder and melted the case until the rot encoder fit. One thing I was really stupid about tho was when soldering the diodes and cutting the ends off for some reason I didn't grab the ends with a plier. Idk if that makes complete sense but basically I cut the excess of the diode off and the pieces just started flying. It's been two months and i'm still missing two pieces of wire but hopefully it isn't too bad. Other than that I didn't have any real problems with my hackpad, it was a pretty self explanatory assembly and my favourite part about it was snapping the swithces into the plate. I loaded firmware and everything was fine. Honestly don't exactly know what to talk about for the assembly cuz it just took a bit of time but wasn't actually that hard so hopefully this is detailed enough.
+
+**Total time spent 4h**
+also heres a picture of the finish product
+![alt text](./images/IMG_3026.jpeg)

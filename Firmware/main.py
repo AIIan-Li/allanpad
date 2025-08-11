@@ -1,3 +1,4 @@
+
 import board
 
 from kmk.kmk_keyboard import KMKKeyboard
@@ -5,34 +6,45 @@ from kmk.keys import KC
 from kmk.scanners import DiodeOrientation
 from kmk.modules.encoder import EncoderHandler
 from kmk.extensions.media_keys import MediaKeys
+
 from kmk.modules.layers import Layers
 
+
+
+
+
+
 keyboard = KMKKeyboard()
+layers = Layers()
 encoder_handler = EncoderHandler()
+keyboard.modules.append(layers)
 keyboard.modules.append(encoder_handler)
-keyboard.modules.append(Layers())
 keyboard.extensions.append(MediaKeys())
 
-keyboard.col_pins = (board.GP0, board.GP1, board.GP2)
-keyboard.row_pins = (board.GP3, board.GP4, board.GP5)
+
+# Define matrix pins based on the schematic, using GP pins
+keyboard.col_pins = (board.GP0, board.GP1, board.GP2)  # COLUMN_1, COLUMN_2, COLUMN_3
+keyboard.row_pins = (board.GP5, board.GP4, board.GP3)  # ROW_A, ROW_B, ROW_C
 keyboard.diode_orientation = DiodeOrientation.COL2ROW
 
-encoder_handler.pins = ((board.GP6, board.GP7, board.GP8, False),)
 
-VOLUME_UP = KC.AUDIO_VOL_UP
-VOLUME_DOWN = KC.AUDIO_VOL_DOWN
 
+# Define keymap
 keyboard.keymap = [
     [
-        KC.N1,  KC.N2,  KC.N3,
-        KC.N4,  KC.N5,  KC.N6,
-        KC.N7,  KC.N8,  KC.N9,
+        KC.A, KC.B, KC.C,
+        KC.D, KC.E, KC.F,
+        KC.G, KC.H, KC.I
     ]
 ]
 
-encoder_handler.map = [
-    ((VOLUME_UP, VOLUME_DOWN),)
-]
+# Configure encoder based on the schematic, using GP pins
+encoder_handler.pins = ((board.GP10, board.GP9, board.GP8),)  # ENCA, ENCB, ENC_SWITCH
+# Encoder map
+encoder_handler.map = [(
+    (KC.VOLU, KC.VOLD),
+    KC.MUTE  # This will be triggered when the encoder is pressed
+)]
 
 if __name__ == '__main__':
     keyboard.go()

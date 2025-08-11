@@ -2,6 +2,7 @@
 
 Allanpad is a 9 key macropad with a rotary encoder, and uses KMK firmware.
 
+![alt text](./images/IMG_3026.jpeg)
 ## Features:
 -3d printed case
 -EC 11 Rotary encoder
@@ -12,7 +13,7 @@ Everything goes together with 4 M3 screws for the case
 
 It has the bottom part where the pcb goes and the top cover for it.
 
-![alt text](./image/finalcad.png)
+![alt text](./images/finalcad.png)
 
 Made in Fusion360
 
